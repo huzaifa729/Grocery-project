@@ -1,0 +1,97 @@
+.svg-inline{
+    width: 35px;
+    color: #ff7800;
+ 
+}
+
+
+.flex{
+    display: flex;
+    margin-top: 20px;
+
+   
+}
+
+.im{
+    margin-left: 6%;
+}
+
+
+.blok{
+    display: flex;
+}
+.loj{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ff7800;
+    margin-left: 5px;
+    margin-top: 5px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;  
+}
+
+a{
+    text-decoration: none;
+}
+
+.list{
+    margin-top: -7px;
+    margin-left: 20px;
+}
+
+.list ul {
+    display: flex;
+    list-style: none;
+}
+
+.item{
+    padding: 0px 21px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #130f40;
+}
+
+.item a:hover {
+   color:#ff7800;
+}
+
+
+
+.buton{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 5px 22px;
+    font-size: 16px;
+    font-family: sans-serif;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+ background-color: #ff7800;
+    color: white;
+}
+
+
+.search-form{
+    margin-top: 4px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.search-form input{
+    padding: 8px;
+    outline-color: blue;
+}
+
+.btk{
+    padding: 5px 14px;
+    margin-left: 1px;
+    background: none;
+    font-size: 17px;
+    cursor: pointer;
+   border-radius: 3px;
+}
