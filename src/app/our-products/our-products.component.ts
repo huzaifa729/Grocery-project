@@ -11,7 +11,7 @@ export class OurProductsComponent implements OnInit {
   customOptions: OwlOptions = {
     loop: true,
     autoplay: true,
-   
+    navSpeed: 600,
     center: true,
     dots: false,
     autoHeight: true,
@@ -30,7 +30,7 @@ export class OurProductsComponent implements OnInit {
       },
    
     },
-    // nav: true
+    //  nav: true
   }
 
   constructor() { }
