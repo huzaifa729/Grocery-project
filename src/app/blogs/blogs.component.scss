@@ -20,6 +20,7 @@
    margin-top: 40px;
    max-width: 85%;
    margin-left: 10%;
+   height: 530px; ;
 }
 
 .nit{
@@ -28,7 +29,7 @@
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     border-radius: 5px;
-    height: 360;
+    // height: 360;
     width: 350px;
 }
 
@@ -38,34 +39,74 @@
    
 }
 
+.hr{
+   border-bottom: 2px solid #666;
+   max-width: 80%;
+}
+
 .mart{
     width: 50%;
+    margin-left: 20px;
 }
+
+
 .mage img{
-    width: 300px;
+    width: 350px;
+    
+}
+
+.mage{
+    // margin-left: 20px;
+    //margin-top: 10px;
 }
 
 .pan{
     color: #ff7800;
+    font-size: 17px;
+ 
+}
+
+.pin{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3px;
 }
 
 .name{
-    margin-top: 20px;
-    color: rgb(14, 12, 12);
+    margin-top: 25px;
+    color: #130f40;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin-left: 10px;
+    font-weight: 550;
+
 }
 
 .paras{
     margin-top: 20px;
+    font-family: cursive;
+    font-size: 17px;
+    color: #130f40;
+    margin-left: 10px;
 }
 
 .button{
-    text-align: center;
-    margin-top: 10px;
+   margin-left: 10px;
+    margin-top: 20px;
 }
 
 .btn{
     width: 45%;
-    height: 35px;
+    height: 40px;
     border-radius: 4px;
     background: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:sans-serif;
+}
+
+.btn:hover{
+    background-color: #ff7800;
+    color: #fff;
+    border: none;
 }
